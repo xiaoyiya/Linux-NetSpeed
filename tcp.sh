@@ -8,10 +8,12 @@ export PATH
 #	Version: 1.3.2
 #	Author: 千影,cx9208
 #	Blog: https://www.94ish.me/
+#       利用https://ghproxy.com对GitHub进行加速，改善了国内服务器的访问
+#       博客：https://www.isyunyi.com
 #=================================================
 
 sh_ver="1.3.2"
-github="raw.githubusercontent.com/chiakge/Linux-NetSpeed/master"
+github="ghproxy.com/raw.githubusercontent.com/chiakge/Linux-NetSpeed/master"
 
 Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Green_background_prefix="\033[42;37m" && Red_background_prefix="\033[41;37m" && Font_color_suffix="\033[0m"
 Info="${Green_font_prefix}[信息]${Font_color_suffix}"
